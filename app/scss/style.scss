@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    padding:0;
+}
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    margin:0 15px;
+    overflow: hidden;
+    .logo{
+        float: left;
+        
+        h1{
+            font-family: 'MuseoModerno', cursive;
+            a{
+                
+                color: black;
+                text-decoration: none;
+            }
+        }
+    }
+    .menu{
+        float: right;;
+        ul{
+            margin:0;
+            padding: 0;
+            list-style: none;
+            li{
+                float: left;
+                a{
+                    padding: 40px 15px;
+                    display: block;
+                    text-decoration: none;
+                    color: black;
+                    &:hover{
+                        font-weight: 600;;
+                    }
+                }
+            }
+        }
+    }
+}
+.hero{
+    margin:0 15px;
+    overflow: hidden;
+    .heroleft{
+        float:left;
+        width: 60%;
+        h2{
+            font-weight: 600;
+            font-size: 6em;
+            font-family: 'Playfair Display', serif;
+            margin-bottom: 10px;
+        }
+        p{
+            line-height: 2em;
+        }
+        a{
+            background:#333;
+            color: #fff;
+            padding:20px 30px;
+            display: inline-block;
+            text-decoration: none;
+            font-weight: 600;
+            transition: 0.5s;
+            &:hover{
+               
+                background: #000;
+            }
+        }
+    }
+    .heroright{
+        float: right;
+        width: 40%;
+        img{
+            width: 100%;
+        }
+    }
+
+}
+.features{
+    margin:5% 15px;
+    overflow: hidden;
+    .feature{
+        padding:20px;
+        width: 21.6%;
+        float: left;
+        img{
+            width: 64px;
+        }
+        &:hover{
+            background: #f5f5f5;
+        }
+    }
+}
+.recipe{
+    margin:0 15px;
+    overflow: hidden;
+    .reciperight{
+        float:right;
+        width: 40%;
+        h2{
+            font-weight: 600;
+            font-size: 3em;
+            font-family: 'Playfair Display', serif;
+            margin-bottom: 0px;
+            padding:10px;
+            margin-top: 0;
+        }
+        p{
+            line-height: 2em;
+            padding:10px;
+        }
+        a{
+            background:#333;
+            color: #fff;
+            padding:20px 30px;
+            display: inline-block;
+            text-decoration: none;
+            font-weight: 600;
+            transition: 0.5s;
+            &:hover{
+               
+                background: #000;
+            }
+        }
+    }
+    .recipeleft{
+        float: left;
+        width: 52%;margin-right: 40px;
+        img{
+            
+            width: 100%;
+        }
+    }
+    
+
+}

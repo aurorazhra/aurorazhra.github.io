@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto; }
+
+.header {
+  margin: 0 15px;
+  overflow: hidden; }
+  .header .logo {
+    float: left; }
+    .header .logo h1 {
+      font-family: 'MuseoModerno', cursive; }
+      .header .logo h1 a {
+        color: black;
+        text-decoration: none; }
+  .header .menu {
+    float: right; }
+    .header .menu ul {
+      margin: 0;
+      padding: 0;
+      list-style: none; }
+      .header .menu ul li {
+        float: left; }
+        .header .menu ul li a {
+          padding: 40px 15px;
+          display: block;
+          text-decoration: none;
+          color: black; }
+          .header .menu ul li a:hover {
+            font-weight: 600; }
+
+.hero {
+  margin: 0 15px;
+  overflow: hidden; }
+  .hero .heroleft {
+    float: left;
+    width: 60%; }
+    .hero .heroleft h2 {
+      font-weight: 600;
+      font-size: 6em;
+      font-family: 'Playfair Display', serif;
+      margin-bottom: 10px; }
+    .hero .heroleft p {
+      line-height: 2em; }
+    .hero .heroleft a {
+      background: #333;
+      color: #fff;
+      padding: 20px 30px;
+      display: inline-block;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.5s; }
+      .hero .heroleft a:hover {
+        background: #000; }
+  .hero .heroright {
+    float: right;
+    width: 40%; }
+    .hero .heroright img {
+      width: 100%; }
+
+.features {
+  margin: 5% 15px;
+  overflow: hidden; }
+  .features .feature {
+    padding: 20px;
+    width: 21.6%;
+    float: left; }
+    .features .feature img {
+      width: 64px; }
+    .features .feature:hover {
+      background: #f5f5f5; }
+
+.recipe {
+  margin: 0 15px;
+  overflow: hidden; }
+  .recipe .reciperight {
+    float: right;
+    width: 40%; }
+    .recipe .reciperight h2 {
+      font-weight: 600;
+      font-size: 3em;
+      font-family: 'Playfair Display', serif;
+      margin-bottom: 0px;
+      padding: 10px;
+      margin-top: 0; }
+    .recipe .reciperight p {
+      line-height: 2em;
+      padding: 10px; }
+    .recipe .reciperight a {
+      background: #333;
+      color: #fff;
+      padding: 20px 30px;
+      display: inline-block;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.5s; }
+      .recipe .reciperight a:hover {
+        background: #000; }
+  .recipe .recipeleft {
+    float: left;
+    width: 52%;
+    margin-right: 40px; }
+    .recipe .recipeleft img {
+      width: 100%; }

@@ -1,0 +1,305 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+.akun {
+    padding:5px  0;
+    background-color: rgba(0, 0, 0, 0.85);
+}
+.akun ul li {
+    display: inline-block;
+    color: white;
+    margin-right: 10px;
+}  
+.container {
+    width: 80%;
+    margin:0 auto;
+
+}
+.container:after {
+    content: ' ';
+    display: block;
+    clear: both;
+}
+
+header h1{
+    float: left;
+    padding:15px 0;
+    color: rgba(0, 0, 0, 0.85);
+}
+header h1 a {
+    font-family: 'Indie Flower', cursive;
+}
+header ul {
+    float: right;
+}
+header ul li {
+    display: inline-block;
+}
+header ul li a {
+    padding:25px 20px;
+    display: inline-block;
+    font-family: 'Indie Flower', cursive;
+}
+header ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.85);
+    color: whitesmoke;
+}
+section {
+    padding:50px 0;
+}
+section h3 {
+    text-align: center; 
+    padding:20px 0;
+    margin-bottom: 25px;
+}
+section p {
+    text-align: center;
+    font-family: 'Times New Roman';
+    font-size: large;
+}
+.about {
+    background-color: #f9f9f9f1;
+    padding-bottom: 30px;
+    text-align: left;
+}
+.about h3{
+    color: rgba(0, 0, 0, 0.85);
+    font-family: 'Indie Flower', cursive;
+    font-size: 26pt;
+}
+.about table {
+    margin-left: 170px;
+    margin-top:20px;
+}
+.about table td {
+    margin-left: 50px;
+    
+}
+.about p {
+    color: black;
+    word-spacing: 2px;
+    line-height: 25px;
+    text-align: left;
+    margin-left: 30px;
+}
+.service {
+    background-color: #f9f9f9f1;
+    margin-bottom: 80px;
+    color: rgba(0, 0, 0);
+    padding-bottom: 120px;
+}
+.service p {
+    margin-bottom: 100px;
+}
+.service h3 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 26pt;
+}
+.contact {
+    background-color: #f9f9f9f1;
+    margin-bottom: 160px;
+    color: rgba(0, 0, 0);
+}
+.contact h3 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 26pt;
+}
+.box {
+    color: rgba(0, 0, 0);
+
+}
+.box:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.col-4 {
+    width: 25%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    float: left;
+}
+.icon {
+    height: 50px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 20px;
+    margin:0 auto;
+}
+.box .col-4 h4 {
+    margin:10px 0;
+
+}
+footer {
+    padding:30px 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.belakang {
+    align-content: center;
+}
+.slide {
+    max-width: auto;
+    height: 690px;
+    position: relative;
+}
+.slide1,.slide2,.slide3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.slide1 {
+    background: url(../app/img/bc1.jpg) no-repeat center;
+    background-size: cover;
+    animation: fade 8s infinite;
+    -webkit-animation: fade 8s infinite;
+}
+.slide2 {
+    background: url(../app/img/bc2.jpg) no-repeat center;
+    background-size: cover;
+    animation: fade2 8s infinite;
+    -webkit-animation: fade2 8s infinite;
+}
+.slide3 {
+    background: url(../app/img/bc3.jpg) no-repeat center;
+    background-size: cover;
+    animation: fade3 8s infinite;
+    -webkit-animation: fade3 8s infinite;
+}
+@keyframes fade {
+    0%{opacity: 1;}
+    33.333% {opacity: 0;}
+    66.666% {opacity: 0;}
+    100% {opacity: 1;}
+}
+@keyframes fade2 {
+    0%{opacity: 0;}
+    33.333% {opacity: 1;}
+    66.666% {opacity: 0;}
+    100% {opacity: 0;}
+}
+@keyframes fade3 {
+    0%{opacity: 0;}
+    33.333% {opacity: 0;}
+    66.666% {opacity: 1;}
+    100% {opacity: 0;}
+}
+.atur img {
+    margin-left: 120px;
+}
+.atur p {
+    margin-top: 50px;
+    font-family: 'Indie Flower', cursive;
+}
+#kotak2, #flip {
+    padding:5px;
+    text-align: center;
+    background-color: aqua;
+    border: solid 2px #e0e5cc;
+    border-radius: 5px;
+}
+#kotak2 {
+    padding: 50px;
+}
+.hero {
+    padding-top: 50px;
+    margin: 0 15px;
+    overflow: hidden; 
+}
+.hero .heroleft {
+    float: left;
+    width: 60%; 
+}
+.hero .heroleft h2 {
+    font-weight: 600;
+    font-size: 6em;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 10px; 
+}
+.hero .heroleft p {
+    line-height: 2em; 
+    padding-right: 50px;
+    padding-bottom: 20px;
+    font-family: 'Indie Flower', cursive;
+}
+.hero .heroleft a {
+    background: #333;
+    color: #fff;
+    padding: 20px 30px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.5s; 
+}
+.hero .heroleft a:hover {
+    background: #000; 
+}
+.hero .heroright {
+    float: right;
+    width: 40%; 
+}
+.hero .heroright img {
+    width: 83%;
+    float: right;
+}  
+.features {
+    margin: 5% 15px;
+    overflow: hidden; 
+}
+.features .feature {
+    padding: 20px;
+    width: 21.6%;
+    float: left; 
+  }
+.features .feature img {
+    width: 64px; 
+}
+.features .feature:hover {
+    background: #f5f5f5; 
+}
+.service {
+    background-color: #f9f9f9f1;
+    margin-bottom: 80px;
+    color: rgba(0, 0, 0, 0.85);
+    padding-bottom: 120px;
+}
+.box {
+    color: rgba(0, 0, 0, 0.85);
+}
+.box:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.container {
+    width: 80%;
+    margin:0 auto;
+}
+.container:after {
+    content: ' ';
+    display: block;
+    clear: both;
+}
+.box .col-4 h4 {
+    margin:10px 0;
+    font-family: 'Indie Flower', cursive;
+    font-size: larger;
+}
+.icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border:1px solid;
+    text-align: center;
+    line-height: 70px;
+    font-size: 20px;
+    margin:0 auto;
+}
